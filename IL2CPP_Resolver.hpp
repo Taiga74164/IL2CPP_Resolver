@@ -72,6 +72,7 @@ namespace Unity
 	class CObject;
 	class CRigidbody;
 	class CTransform;
+	class CTime;
 }
 
 // Unity API
@@ -82,6 +83,7 @@ namespace Unity
 #include "Unity/API/LayerMask.hpp"
 #include "Unity/API/Rigidbody.hpp"
 #include "Unity/API/Transform.hpp"
+#include "Unity/API/Time.hpp"
 
 // IL2CPP Headers after Unity API
 #include "Utils/Helper.hpp"
@@ -194,6 +196,7 @@ namespace IL2CPP
 			Unity::Object::Initialize();
 			Unity::RigidBody::Initialize();
 			Unity::Transform::Initialize();
+			Unity::Time::Initialize();
 
 			// Caches
 			IL2CPP::SystemTypeCache::Initializer::PreCache();

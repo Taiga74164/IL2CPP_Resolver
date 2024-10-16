@@ -73,6 +73,15 @@
 #define UNITY_TRANSFORM_SETLOCALPOSITION							IL2CPP_RStr(UNITY_TRANSFORM_CLASS"::set_localPosition_Injected")
 #define UNITY_TRANSFORM_SETLOCALSCALE								IL2CPP_RStr(UNITY_TRANSFORM_CLASS"::set_localScale_Injected")
 
+// Time
+#define UNITY_TIME_CLASS											"UnityEngine.Time"
+#define UNITY_TIME_GETDELTATIME										IL2CPP_RStr(UNITY_TIME_CLASS"::get_deltaTime")
+#define UNITY_TIME_GETFIXEDDELTATIME								IL2CPP_RStr(UNITY_TIME_CLASS"::get_fixedDeltaTime")
+#define UNITY_TIME_GETTIME											IL2CPP_RStr(UNITY_TIME_CLASS"::get_time")
+#define UNITY_TIME_GETFIXEDTIME										IL2CPP_RStr(UNITY_TIME_CLASS"::get_fixedTime")
+#define UNITY_TIME_GETTIMESCALE										IL2CPP_RStr(UNITY_TIME_CLASS"::get_timeScale")
+#define UNITY_TIME_SETTIMESCALE										IL2CPP_RStr(UNITY_TIME_CLASS"::set_timeScale")
+
 namespace Unity
 {
     enum m_eTypeEnum
